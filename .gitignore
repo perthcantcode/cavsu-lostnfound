@@ -1,0 +1,16 @@
+# Environment files - NEVER upload these
+backend/.env
+frontend/.env
+
+# Dependencies - too large to upload
+node_modules/
+*/node_modules/
+**/node_modules/
+
+# Build files
+frontend/dist/
+frontend/.vite/
+
+# OS files
+.DS_Store
+Thumbs.db
